@@ -1,0 +1,81 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Production and build outputs
+build/
+dist/
+out/
+bin/
+
+# Environment variables and secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+!*.env.example
+
+# Cryptographic keys, certificates, and MSP credentials
+*.pem
+*.key
+*.crt
+*.pfx
+*.keystore
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+*.egg-info/
+.pytest_cache/
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# DRUNIX / Hyperledger Fabric transient artifacts
+*.block
+*.tx
+crypto-config/
+channel-artifacts/
+.fabric-ca/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary and cache directories
+tmp/
+temp/
+.cache/
